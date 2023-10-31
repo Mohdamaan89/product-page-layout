@@ -1,0 +1,159 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+/* Always mark margin and padding for all to zero then only start. */
+*{
+    height: auto;
+}
+body{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+     line-height: 1.5;
+    
+    
+}
+.header{
+    display: flex;
+}
+.nav-bar{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    top:0px;
+    overflow: hidden;
+    width: 100%;
+   
+   
+    
+}
+.logo{
+    width: 300px;
+    cursor: pointer;
+   
+}
+.nav-link{
+   
+        float: left;
+        display: block;
+        color: rgb(3, 3, 3);
+        font-size: 18px;
+        text-decoration: none;
+        padding-left: 20px;
+        padding-right: 30px;
+
+}
+.container{
+    max-width: 960px;
+    margin: 2rem auto 0px;
+}
+#message-box{
+    
+    margin: 60px;
+    padding: 15px;
+    text-align: center;
+}
+
+    
+
+#message-box input {
+    display: block;
+    margin: auto;
+    width: 30%;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+.btn{
+   
+    font-weight: bold;
+    background-color: #f1c40f;
+    text-transform: uppercase;
+    color: #333;
+    text-decoration: none;
+
+}
+#features{
+    display: flex;
+    flex-direction: column;
+    padding: 20px
+    
+}
+
+#features .feature{
+    display: flex;
+    align-items: center;
+    height: 137px;
+
+
+}
+#features .feature div{
+    padding: 1rem;
+    margin-left: 3rem;
+
+}
+#features .feature i{
+    color:  #ff8c00;;
+}
+#features .feature h1{
+    margin-top: 18px;
+    padding-top: 8px;
+}
+#how-it-works{
+    text-align: center;
+    margin-top: 110px;
+    padding-left: 110px;
+}
+#video{
+    width: 600px;
+    height: 340px;
+}
+.price-box{
+    border: solid #333 ;
+    border-radius: 2px;
+    text-align: center;
+    height: 300px;
+}
+#pricing{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+#pricing .price-box h1{
+    background-color: #ddd;
+    margin-top: 0px;
+    font-size: 17px;
+    padding: 19px;
+
+}
+#pricing .price-box p{
+    padding: 0 4rem 1rem;
+}
+.price-box .btn {
+    padding: 10px;
+    display: inline-flex;
+    width: 70px;
+    padding-left: 27px;
+}
+#footer{
+    display: flex;
+    background-color: #ccc;
+    justify-content: space-between;
+    margin-top: 95px;
+    /* Never give negative margin or padding */
+    margin-left: -8px;
+    margin-right: -8px; 
+    
+}
+.footer-link{
+    text-decoration: none;
+    color: #333;
+    margin: 20px;
+}
+#footerLastPara{
+    padding-right: 100px;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    
+}
